@@ -18,7 +18,6 @@ public final class StringUtils {
     }
 
     public static HashMap<Character, ArrayList<Integer>> createMap(String text) {
-
         ArrayList<Integer> positions;
         HashMap<Character, ArrayList<Integer>> hashMap = new HashMap<>();
         for (int i = 0; i < text.length(); i++){
